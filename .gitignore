@@ -1,0 +1,24 @@
+# --- Большие данные (не храним в репозитории) ---
+train_augmentation.csv
+test_augmentation.csv
+result_*.csv
+*.lgp
+*.~lgp
+
+# --- Служебные каталоги ML ---
+catboost_info/
+__pycache__/
+*.py[cod]
+
+# --- Окружения ---
+.venv/
+venv/
+env/
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- ОС ---
+Thumbs.db
+.DS_Store
